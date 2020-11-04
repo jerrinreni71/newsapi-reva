@@ -19,7 +19,7 @@ function App () {
     }
     axios
       .post(
-        "https://gwfzy6xxo3.execute-api.us-west-1.amazonaws.com/dev/latest",
+        "https://1nri381946.execute-api.us-east-2.amazonaws.com/default/newsapi1",
         data
       )
       .then( response => {
